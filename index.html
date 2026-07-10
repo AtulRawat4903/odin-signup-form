@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo-bar">
+                <img src="images/odin-lined.png" alt="Odin Logo">
+                <h1>ODIN</h1>
+            </div>
+
+            <p class="photo-credit">
+                Photo by
+                <a href="#">Colin + Meg</a>
+                on
+                <a href="#">Unsplash</a>
+            </p>
+        </div>
+
+        <div class="content">
+            <div class="intro">
+                <p>This is not a real online service. This is a dummy signup form built as per The Odin Project's
+                    curriculum. Go ahead and Sign up now!</p>
+                <p><em>You know you want to.</em></p>
+            </div>
+
+            <div class="form-container">
+                <h2>Let's do this!</h2>
+
+                <form id="signup-form" action="#" method="get">
+                    <div class="form-field">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" autocomplete="email" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                </form>
+            </div>
+
+            <div class="footer">
+                <button type="submit" form="signup-form">Create Account</button>
+
+                <p>
+                    Already have an account?
+                    <a href="#">Log in</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
