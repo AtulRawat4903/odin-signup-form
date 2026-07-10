@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url(fonts/norse/Norsebold.otf) format("opentype");
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    height: 100vh;
+
+    position: relative;
+}
+
+.logo-bar {
+    margin-top: 180px;
+    width: 100%;
+    padding: 12px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-bar img {
+    height: 120px;
+}
+
+.logo-bar h1 {
+    font-family: "Norse", sans-serif;
+    color: white;
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.photo-credit {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+
+    color: cyan;
+    font-family: "Norse", sans-serif;
+    font-size: 0.8rem;
+    word-spacing: 5px;
+}
+
+.photo-credit a {
+    color: cyan;
+}
