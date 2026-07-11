@@ -51,13 +51,13 @@ body {
 }
 
 .logo-bar img {
-    height: 120px;
+    height: 140px;
 }
 
 .logo-bar h1 {
     font-family: "Norse", sans-serif;
     color: white;
-    font-size: 5rem;
+    font-size: 6rem;
     line-height: 1;
 }
 
@@ -75,4 +75,130 @@ body {
 
 .photo-credit a {
     color: cyan;
+}
+
+.content {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f9fafb;
+}
+
+.intro {
+    max-width: 65ch;
+    padding: 120px 40px 50px;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    line-height: 1.4;
+}
+
+.intro p:first-child {
+    margin-bottom: 25px;
+}
+
+.form-container {
+    background: white;
+
+    padding: 35px 45px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.form-container h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+#signup-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 70px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+}
+
+.form-field label {
+    font-size: .75rem;
+    letter-spacing: 1px;
+
+    margin-bottom: 3px;
+
+    word-spacing: 1px;
+}
+
+.form-field input {
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+
+    border-color: #0664fb;
+
+    box-shadow: 0 0 6px rgba(59,130,246,.4);
+}
+
+input[type="password"]:user-invalid {
+    border-color: red;
+}
+
+.footer {
+    padding: 35px 40px;
+}
+
+.footer button {
+    background: #596D48;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 55px;
+
+    border-radius: 8px;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background: #4f6240;
+}
+
+.footer p {
+    margin-top: 25px;
+}
+
+.footer a {
+    color: #596D48;
+
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+input,
+button {
+    transition: .2s;
 }
