@@ -1,6 +1,6 @@
-# 🃏 Joker Signup Form
+# Signup Form
 
-A modern signup form inspired by **The Odin Project's Sign-Up Form** assignment, reimagined with a **Batman: Joker** aesthetic.
+A modern signup form created as per the **The Odin Project's** curriculum, reimagined with a **Batman: Joker** aesthetic.
 
 ## 🚀 Live Demo
 
@@ -14,7 +14,7 @@ https://atulrawat4903.github.io/odin-signup-form/
 - 🔒 HTML5 form validation
 - 🎨 Custom Norse font for the logo
 - 🖼️ Full-screen sidebar with background image
-- 💜 Dark UI with purple accent colors
+- 💜 Dark UI with enhanced accent colors
 
 ## 🛠️ Built With
 
